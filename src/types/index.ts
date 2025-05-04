@@ -6,3 +6,16 @@ export interface Country {
       name: string;
     };
 }
+
+export interface CountryDetail {
+    code: string;
+    name: string;
+    currency: string;
+    capital: string;
+    continent: {
+      name: string;
+    };
+    languages: {
+      name: string;
+    }[];
+  }

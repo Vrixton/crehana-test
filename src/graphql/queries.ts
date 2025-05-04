@@ -11,4 +11,21 @@ export const GET_COUNTRIES = gql`
       }
     }
   }
-`;
+`
+
+export const GET_COUNTRY_BY_CODE = gql`
+  query GetCountry($code: ID!) {
+    country(code: $code) {
+      code
+      name
+      currency
+      capital
+      continent {
+        name
+      }
+      languages {
+        name
+      }
+    }
+  }
+`

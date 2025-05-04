@@ -1,0 +1,28 @@
+.detail-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+  
+    a {
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: #007bff;
+    }
+  
+    h2 {
+      margin-bottom: 1rem;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        margin-bottom: 0.5rem;
+        strong {
+          font-weight: 600;
+        }
+      }
+    }
+}
+  
